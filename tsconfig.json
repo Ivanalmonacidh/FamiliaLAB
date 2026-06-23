@@ -3,5 +3,6 @@
     "noEmit": true
   },
   "extends": "./frontend/tsconfig.json",
-  "include": ["frontend/src"]
+  "include": ["frontend/src"],
+  "exclude": ["frontend/src/AppBackup.tsx"]
 }
